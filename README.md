@@ -1,6 +1,6 @@
 # ThEn-AI
 
-ThEn-AI is an AI assistant created by [@morm_leapsovann](https://github.com/morm_leapsovann). This assistant is designed with various capabilities, including face recognition and voice recognition.
+ThEn-AI is an AI assistant created by [@morm_leapsovann](https://github.com/Sovann-Digital). This assistant is designed with various capabilities, including face recognition and voice recognition.
 
 ## Features
 
@@ -18,16 +18,17 @@ To start using ThEn-AI, follow these steps:
 
 git clone https://github.com/Sovann-Digital/ThEn-AI.git
 
+2. create virtual environment
 
-2. Install the required dependencies:
+python -m venv cuda
+
+3. Install the required dependencies:
 
 pip install -r requirements.txt
-
 
 3. Run the AI assistant:
 
 python main.py
-
 
 4. Follow the on-screen instructions to interact with the assistant.
 

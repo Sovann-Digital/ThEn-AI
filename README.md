@@ -16,21 +16,43 @@ To start using ThEn-AI, follow these steps:
 
 1. Clone the repository from GitHub:
 
-git clone https://github.com/Sovann-Digital/ThEn-AI.git
+    ```
+    git clone https://github.com/Sovann-Digital/ThEn-AI.git
+    ```
 
-2. create virtual environment
+2. Create a virtual environment:
 
-python -m venv cuda
+    ```
+    python -m venv venv
+    ```
 
-3. Install the required dependencies:
+3. Activate the virtual environment:
 
-pip install -r requirements.txt
+    - On Windows:
+    
+    ```
+    venv\Scripts\activate
+    ```
 
-3. Run the AI assistant:
+    - On macOS and Linux:
+    
+    ```
+    source venv/bin/activate
+    ```
 
-python main.py
+4. Install the required dependencies:
 
-4. Follow the on-screen instructions to interact with the assistant.
+    ```
+    pip install -r requirements.txt
+    ```
+
+5. Run the AI assistant:
+
+    ```
+    python main.py
+    ```
+
+6. Follow the on-screen instructions to interact with the assistant.
 
 ## Contributing
 

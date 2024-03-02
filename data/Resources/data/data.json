@@ -1,0 +1,12 @@
+{
+    "User": {
+        "0001":{
+            "name":"morm leapsovann",
+            "major":"Python"
+        },
+        "0002":{
+            "name":"Elon Musk",
+            "major":"Python"
+        }
+    }
+}
